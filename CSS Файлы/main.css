@@ -1,0 +1,240 @@
+/* Общие стили */
+  * {
+    box-sizing: border-box;
+  }
+
+  body {
+    margin: 0;
+    font-family: 'Oswald', sans-serif;
+    overflow-x: hidden;
+    background-color: #2F343A;
+    margin: 0;
+    }
+    body::-webkit-scrollbar {
+      width: 10px;
+    }
+    body::-webkit-scrollbar-track {
+      background: #2f343a;
+    }
+    body::-webkit-scrollbar-thumb {
+      background-color: #c8a35f;
+      border-radius: 20px;
+      border: 3px solid #2F343A;
+  }
+
+  .conteiner {
+    max-width: 1550px;
+    /* border: 1px solid; */
+    margin: 0 auto;
+    padding: 0px 15px;
+  }
+/* Конец общие стили */
+
+/* Шапка */
+  header {
+    background: #c8a35f;
+    padding-top: 0px;
+    padding-bottom: 0px;
+  }
+
+  .header-info {
+    color: #ffffff;
+    font-size: 15px;
+    margin-left: 320px;
+    margin-right: 320px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+/* Конец шапка */
+
+/* Меню */
+.menu {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  }
+
+  .logo {
+    width: 150px;
+    height: 150px;
+    margin: 0;
+    margin-top: -8px;
+  }
+  .logo-ty {
+    width: 250px;
+    height: 110px;
+    margin-top: -70px;
+    margin-left: -300px;
+  }
+  .logo-polosa {
+    width: 1px;
+    height: 50px;
+    margin-top: -70px;
+    margin-left: -280px;
+  }
+  .logo-gps {
+    width: 25px;
+    height: 25px;
+    margin-top: -70px;
+    margin-left: -250px;
+  }
+  .tecst-gps {
+    width: 97px;
+    height: 16px;
+    letter-spacing: 0.10em;
+    text-decoration: none;
+    color: #FFFFFF;
+    margin-top: -46px;
+  margin-left: -250px;
+}
+/* Конец меню */
+
+/* Начальная точка */
+main {
+  background-image: url('./../images/header/Track.jpg');
+  background-repeat: no-repeat;
+  background-position: center 80px;
+  }
+
+  .cours-info {
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .cours-info p {
+    font-size: 120%;
+    color: #ffffff;
+    letter-spacing: 0.15em;
+    margin-top: -15px;
+  }
+
+  h1 {
+    font-size: 400%;
+    letter-spacing: 0.15em;
+    color: #ffffff;
+    margin-bottom: 30px;
+  }
+/* Конец начальная точка */
+
+/* Ссылки на ютуберов */
+  .utyber {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 200px;
+    margin-right: 200px;
+    margin-top: -28px;
+    }
+    .diman {
+      width: 230px;
+      height: 180px;
+    }
+    .lisoagnida {
+      width: 230px;
+      height: 180px;
+  }
+/* Конец ссылки на ютуберов */
+
+/* Вторая точка */
+.info-kvadrat {
+  background-image: url('./../images/infor/kvadrati.png');
+  background-repeat: no-repeat;
+  background-position: center;
+  margin-top: -5px;
+  padding-left: 50px;
+  padding-right: 50px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  }
+  .content-kvadrat {
+    display: flex;
+    flex-direction: column;
+  }
+  .trackico {
+    margin-top: 100px;
+    margin-bottom: 180px;
+    margin-left: -50px;
+  }
+  .palka {
+    width: 200px;
+    height: 15px;
+    margin-left: 200px;
+    margin-top: -40px;
+  }
+  .palka2 {
+    width: 200px;
+    height: 15px;
+    margin-left: 250px;
+    margin-top: 80px;
+  }
+  .info-kvadrat h3 {
+    font-size: 400%;
+    letter-spacing: 0.15em;
+    color: #FFFFFF;
+    margin-left: 150px;
+    margin-top: 50px;
+    margin-bottom: 30px;
+  }
+  .info-kvadrat p {
+    font-size: 150%;
+    letter-spacing: 0.15em;
+    color: #FFFFFF;
+    margin-left: 150px;
+  }
+  .tyda-cuda {
+    margin-top: 110px;
+    margin-bottom: 110px;
+    margin-right: 250px;
+  }
+/* Конец вторая точка */
+
+/* Третья точка */
+  .education-info {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin-top: 50px;
+    margin-bottom: 50px;
+  }
+
+  .cart {
+    width: 335px;
+  }
+
+  .flagi {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .flag {
+    width: 165px;
+    height: 100px;
+    margin-left: -5px;
+    margin-right: -5px;
+    margin-bottom: -200px;
+    margin-top: -50px;
+  }
+
+ .fyri {
+    width: 600px;
+    height: 350px;
+    display: flex;
+    justify-content: center;
+    margin-top: 200px;
+  }
+/* Конец третья точка */
+
+/* Футер */
+  footer {
+    display: flex;
+    justify-content: center;
+    background-color: #c8a35f;
+    color: #FFF;
+    font-size: 14px;
+  }
+/* Конец футер */

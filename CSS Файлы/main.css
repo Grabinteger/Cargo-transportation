@@ -9,7 +9,14 @@
     overflow-x: hidden;
     background-color: #2F343A;
     margin: 0;
+    /* Запретить копирование текста */
+    -ms-user-select: none; 
+		-moz-user-select: none; 
+		-webkit-user-select: none; 
+		user-select: none;
+    /**/
     }
+    /* Параметры скролла */
     body::-webkit-scrollbar {
       width: 10px;
     }
@@ -20,6 +27,7 @@
       background-color: #c8a35f;
       border-radius: 20px;
       border: 3px solid #2F343A;
+    /**/
   }
 
   .conteiner {

@@ -534,6 +534,7 @@
 }
   
 @media (max-width:768px) {
+
   .contacts {
       flex-direction: column;
     }
@@ -578,15 +579,116 @@
 }
 
 @media (max-width:425px) {
-  .cours-info {
-      height: 315px;
-      background-position-x: 220%;
+  .logo {
+    width: 90px;
+    height: 90px;
+    margin: 0;
+    margin-top: -20px;
   }
-}
 
-@media (max-width:375px) {
+  .tecst-gps {
+    display: none;
+  }
+
+  .header-info {
+    font-size: 10px;
+    margin-left: 0px;
+    margin-right: 0px;
+  }
+
+  .utyber {
+    margin-top: -38px;
+  }
+    .diman {
+      width: 130px;
+      height: 100px;
+    }
+    .lisoagnida {
+      width: 130px;
+      height: 100px;
+  }
+
+  .info-kvadrat {
+    background-image: url('./../images/infor/kvadrati.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 150%;
+    margin-top: -112px;
+    padding-left: 0px;
+    padding-right: 0px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  main {
+    background-image: url('./../images/header/Track.jpg');
+    background-repeat: no-repeat;
+    background-position: center 65px;
+    background-size: 200%;
+  }
+
   .cours-info {
-      height: 315px;
-      background-position-x: 220%;
+    height: 150px;
+  }
+
+  .cours-info p {
+    font-size: 75%;
+    letter-spacing: 0.15em;
+    margin-top: -15px;
+  }
+
+  h1 {
+    font-size: 100%;
+    letter-spacing: 0.15em;
+    margin-bottom: 30px;
+    margin-top: -50px;
+  }
+
+  .palka {
+    width: 50px;
+    height: 5px;
+    margin-left: 30px;
+    margin-top: -15px;
+  }
+  .palka2 {
+    display: none;
+  }
+  .trackico {
+      margin-top: 20px;
+      margin-bottom: 10px;
+      margin-left: -10px;
+      width: 150px;
+      height: 100px;
+    }
+    .info-kvadrat h3 {
+      font-size: 120%;
+      margin-left: 10px;
+      margin-top: 20px;
+      margin-bottom: 10px;
+    }
+    .info-kvadrat p {
+      font-size: 50%;
+      margin-left: 10px;
+    }
+    .tyda-cuda {
+      margin-top: 30px;
+      margin-bottom: 30px;
+      margin-right: 50px;
+      width: 50px;
+      height: 10px;
+  }
+
+  .flag {
+    width: 60px;
+    height: 40px;
+    margin-bottom: 20px;
+  }
+
+  .fyri {
+    width: 300px;
+    height: 200px;
+    margin-top: 0px;
+    margin-bottom: -50px;
   }
 }

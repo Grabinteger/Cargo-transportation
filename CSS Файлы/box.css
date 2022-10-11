@@ -534,3 +534,342 @@ a.box8button:active {
     margin-left: 165px;
     margin-top: -85px;
 }
+
+/* Медиа запросы !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! */
+
+@media (max-width:1550px) {
+    .cart {
+        width: 300px;
+    }
+
+    .box {
+            width: 300px;
+            height: 210px;
+        }
+        .box-text1 {
+            font-size: 120%;
+        }
+        .box-text2 {
+            font-size: 100%;
+            margin-bottom: 85px;
+        }
+        a.box1button {
+            font-size: 85%;
+        }
+        .png-noytgps {
+            width: 150px;
+            margin-left: 150px;
+            margin-top: -80px;
+    }
+
+    .box2 {
+            width: 300px;
+            height: 210px;
+        }
+        .box2-text1 {
+            font-size: 120%;
+        }
+        .box2-text2 {
+            font-size: 100%;
+            margin-bottom: 85px;
+        }
+        a.box2button {
+            font-size: 85%;
+        }
+        .png-pogryshik {
+            width: 180px;
+            margin-left: 140px;
+            margin-top: -66px;
+    }
+
+    .box3 {
+            width: 300px;
+            height: 210px;  
+        }
+        .box3-text1 {
+            font-size: 120%;
+            margin-bottom: 70px;
+        }
+        .box3-text2 {
+            font-size: 100%;
+            margin-bottom: 65px;
+        }
+        a.box3button {
+            font-size: 85%;
+        }
+        .png-fyraa {
+            width: 170px;
+            margin-left: 130px;
+            margin-top: -70px;
+    }
+    
+    .box4 {
+            width: 300px;
+            height: 210px;
+        }
+        .box4-text1 {
+            font-size: 120%;
+        }
+        .box4-text2 {
+            font-size: 100%;
+            margin-bottom: 85px;
+        }
+        a.box4button {
+            font-size: 85%;
+        }
+        .png-fyralike {
+            width: 150px;
+            margin-left: 160px;
+            margin-top: -66px;
+    }
+
+    .box5 {
+            width: 300px;
+            height: 210px;
+        }
+        .box5-text1 {
+            font-size: 120%;
+        }
+        .box5-text2 {
+            font-size: 100%;
+            margin-bottom: 85px;
+        }
+        a.box5button {
+            font-size: 85%;
+        }
+        .png-karobki {
+            width: 190px;
+            margin-left: 150px;
+            margin-top: -80px;
+    }
+
+    .box6 {
+            width: 300px;
+            height: 210px;
+        }
+        .box6-text1 {
+            font-size: 120%;
+        }
+        .box6-text2 {
+            font-size: 100%;
+            margin-bottom: 85px;
+        }
+        a.box6button {
+            font-size: 85%;
+        }
+        .png-ludi {
+            width: 170px;
+            margin-left: 166px;
+            margin-top: -70px;
+    }
+
+    .box7 {
+            width: 300px;
+            height: 210px;
+        }
+        .box7-text1 {
+            font-size: 120%;
+        }
+        .box7-text2 {
+            font-size: 100%;
+            margin-bottom: 85px;
+        }
+        a.box7button {
+            font-size: 85%;
+        }
+        .png-cheklist {
+            width: 190px;
+            margin-left: 150px;
+            margin-top: -75px;
+    }
+
+    .box8 {
+            width: 300px;
+            height: 210px;
+        }
+        .box8-text1 {
+            font-size: 120%;
+        }
+        .box8-text2 {
+            font-size: 100%;
+            margin-bottom: 85px;
+        }
+        a.box8button {
+            font-size: 85%;
+        }
+        .png-telephongps {
+            width: 190px;
+            margin-left: 140px;
+            margin-top: -70px;
+    }
+}
+
+@media (max-width:1550px) {
+    .cart {
+        width: 250px;
+    }
+}
+
+@media (max-width:1400px) {
+    .box {
+            width: 280px;
+            height: 210px;
+        }
+        .box-text1 {
+            font-size: 120%;
+        }
+        .box-text2 {
+            font-size: 100%;
+            margin-bottom: 85px;
+        }
+        a.box1button {
+            font-size: 85%;
+        }
+        .png-noytgps {
+            width: 150px;
+            margin-left: 140px;
+            margin-top: -66px;
+    }
+
+    .box2 {
+            width: 280px;
+            height: 210px;
+        }
+        .box2-text1 {
+            font-size: 120%;
+        }
+        .box2-text2 {
+            font-size: 100%;
+            margin-bottom: 85px;
+        }
+        a.box2button {
+            font-size: 85%;
+        }
+        .png-pogryshik {
+            width: 180px;
+            margin-left: 130px;
+            margin-top: -55px;
+    }
+
+    .box3 {
+            width: 280px;
+            height: 210px;  
+        }
+        .box3-text1 {
+            font-size: 120%;
+            margin-bottom: 70px;
+        }
+        .box3-text2 {
+            font-size: 100%;
+            margin-bottom: 65px;
+        }
+        a.box3button {
+            font-size: 85%;
+        }
+        .png-fyraa {
+            width: 170px;
+            margin-left: 130px;
+            margin-top: -70px;
+    }
+
+    .box4 {
+            width: 280px;
+            height: 210px;
+        }
+        .box4-text1 {
+            font-size: 120%;
+        }
+        .box4-text2 {
+            font-size: 100%;
+            margin-bottom: 85px;
+        }
+        a.box4button {
+            font-size: 85%;
+        }
+        .png-fyralike {
+            width: 150px;
+            margin-left: 160px;
+            margin-top: -66px;
+    }
+
+    .box5 {
+            width: 280px;
+            height: 210px;
+        }
+        .box5-text1 {
+            font-size: 120%;
+        }
+        .box5-text2 {
+            font-size: 100%;
+            margin-bottom: 85px;
+        }
+        a.box5button {
+            font-size: 85%;
+        }
+        .png-karobki {
+            width: 190px;
+            margin-left: 130px;
+            margin-top: -80px;
+    }
+
+    .box6 {
+            width: 280px;
+            height: 210px;
+        }
+        .box6-text1 {
+            font-size: 120%;
+        }
+        .box6-text2 {
+            font-size: 100%;
+            margin-bottom: 85px;
+        }
+        a.box6button {
+            font-size: 85%;
+        }
+        .png-ludi {
+            width: 170px;
+            margin-left: 155px;
+            margin-top: -64px;
+    }
+
+    .box7 {
+            width: 280px;
+            height: 210px;
+        }
+        .box7-text1 {
+            font-size: 120%;
+        }
+        .box7-text2 {
+            font-size: 100%;
+            margin-bottom: 85px;
+        }
+        a.box7button {
+            font-size: 85%;
+        }
+        .png-cheklist {
+            width: 190px;
+            margin-left: 150px;
+            margin-top: -75px;
+    }
+
+    .box8 {
+            width: 280px;
+            height: 210px;
+        }
+        .box8-text1 {
+            font-size: 120%;
+        }
+        .box8-text2 {
+            font-size: 100%;
+            margin-bottom: 85px;
+        }
+        a.box8button {
+            font-size: 85%;
+        }
+        .png-telephongps {
+            width: 190px;
+            margin-left: 140px;
+            margin-top: -70px;
+    }
+}
+
